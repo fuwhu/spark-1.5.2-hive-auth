@@ -7,6 +7,9 @@ rich set of higher-level tools including Spark SQL for SQL and DataFrames,
 MLlib for machine learning, GraphX for graph processing,
 and Spark Streaming for stream processing.
 
+this version of spark is based on spark-1.5.2 and embed hive SQL Standards Based authorization to HiveContext,
+prvileges are checked in checkPrivileges of class ClientWrapper.
+
 <http://spark.apache.org/>
 
 
